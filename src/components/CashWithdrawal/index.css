@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #150b3e;
+  border-radius: 12px;
+  padding: 20px;
+  width: 600px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+.profile-pic {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50%;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.profile-name {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #d4d2db;
+  margin-top: 30px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+.balance-text {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #585076;
+  margin-top: 30px;
+}
+.balance {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #d4d2db;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.rupees-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #585076;
+  margin-top: 0px;
+}
